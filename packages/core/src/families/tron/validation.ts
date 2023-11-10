@@ -7,6 +7,11 @@ export const schemaTronOperationMode = z.enum([
   "unfreeze",
   "vote",
   "claimReward",
+  "freezeV2",
+  "delegateResource",
+  "unDelegateResource",
+  "unFreezeV2",
+  "withdrawExpireUnfreeze",
 ]);
 
 export const schemaTronResource = z.enum(["BANDWIDTH", "ENERGY"]);
